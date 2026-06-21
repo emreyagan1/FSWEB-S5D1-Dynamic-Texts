@@ -9,3 +9,9 @@ Sana düşen ise index.js dosyasındaki siteContent objesi içindeki metinleri v
 **Dikkat**
 - Hedeflenen tasarıma https://i.ibb.co/xjQ2NfS/s5d1-design.png adresinden bakabilirsin.
 - original.html dosyasında hedeflenen html şemasını bulabilirsin. Navigasyondaki linklerin 'italic' class'ı olduğunu, footer'daki acnhor tag'in de 'bold' class'ına sahip olduğunu göreceksin. Unutma! tüm kodlarını index.js dosyasına yazacaksın.
+
+## Önemli Notlar
+
+- Proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
+- Geliştirme sırasında testleri izlemek için `npm test` komutunu kullanın.
+- Testleri çalıştırıp skoru NextGen'e kaydetmek için `npm run sendresults` komutunu kullanın.
