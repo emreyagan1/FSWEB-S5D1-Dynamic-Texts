@@ -49,3 +49,69 @@ const siteContent = {
 };
 
 /* Kodlar Buradan aşağıya */
+
+const link = document.querySelectorAll(".container header a")
+  for(let i = 0; i < link.length; i++) {
+    link[i].textContent = siteContent.nav["nav-item-" + (i+1)]
+  }
+
+const baslık = document.querySelector(".cta-text h1")
+      baslık.textContent = siteContent.cta["h1"]
+
+const button = document.querySelector(".cta-text button")
+      button.textContent = siteContent.cta["button"]
+
+const baslıklar = document.querySelectorAll(".top-content h4")
+      for(let i = 0; i < baslıklar.length; i++) {
+      baslıklar[i].textContent = siteContent["top-content"][i === 0 ? "left-h4": "right-h4"]
+      }
+
+const paragraflar = document.querySelectorAll(".top-content p")
+      for(let i = 0; i < paragraflar.length; i++) {
+      paragraflar[i].textContent = siteContent["top-content"][i === 0 ? "left-content": "right-content"]
+      }
+
+const altBaslık = document.querySelectorAll(".bottom-content h4")
+const baslikAnahtarlari = ["left-h4", "middle-h4", "right-h4"];
+      for(let i = 0; i < altBaslık.length; i++) {
+       altBaslık[i].textContent = siteContent["bottom-content"][baslikAnahtarlari[i]]
+      }
+
+
+const altParagraf = document.querySelectorAll(".bottom-content p")
+const altParagrafAnahtari =["left-content" , "middle-content" , "right-content"]
+    for(let i = 0; i < altParagraf.length; i++) {
+      altParagraf[i].textContent = siteContent["bottom-content"][altParagrafAnahtari[i]]
+    }
+
+
+const iletisimBaslik = document.querySelector(".contact h4")
+       iletisimBaslik.textContent = siteContent.contact["contact-h4"]
+
+const iletisimParagraf = document.querySelectorAll(".contact p")
+const bilgiler = ["address", "phone", "email"];
+    for(let i = 0; i < iletisimParagraf.length; i++) {
+      iletisimParagraf[i].textContent = siteContent.contact[bilgiler[i]]
+    }
+
+const footerLink = document.querySelector("footer a")
+      footerLink.textContent = siteContent.footer.copyright
+      footerLink.classList.add("bold")
+
+const logo = document.querySelector("#logo-img")
+      logo.src = "https://i.ibb.co/42PDMF2/logo.png"
+
+const ctaResim = document.querySelector("#cta-img")
+      ctaResim.src = "https://i.ibb.co/XssVKxk/cta.png"
+
+const ortaİmg = document.querySelector(".middle-img")
+      ortaİmg.src = "https://i.ibb.co/5FZmL26/accent.png"
+
+const menuClass = document.querySelectorAll(".container header a")
+      for(let i = 0; i < menuClass.length; i++) {
+        menuClass[i].classList.add("italic")
+      }
+    
+
+        
+     

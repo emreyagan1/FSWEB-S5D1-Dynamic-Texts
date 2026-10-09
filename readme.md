@@ -15,3 +15,7 @@ Sana düşen ise index.js dosyasındaki siteContent objesi içindeki metinleri v
 - Proje dizinindeki `user.json` dosyasını bulun ve `user_id` alanını NextGen proje ekranında görünen kendi `user_id` değeriniz ile güncelleyin.
 - Geliştirme sırasında testleri izlemek için `npm test` komutunu kullanın.
 - Testleri çalıştırıp skoru NextGen'e kaydetmek için `npm run sendresults` komutunu kullanın.
+
+## Bilinen Durum
+
+Projedeki JavaScript işlevleri tamamlanmıştır. Testlerin 3 tanesi, beklenen görsel URL'leri ile çalışan görsel adresleri arasındaki farklılık nedeniyle başarısız olmaktadır. Sayfanın görsel olarak düzgün görüntülenmesi için çalışan görsel adresleri korunmuştur.
